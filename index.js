@@ -7,4 +7,6 @@ async function on_boot() {
   console.log(dataset);
 }
 
+console.time("BOOT")
 on_boot();
+console.timeEnd("BOOT")
